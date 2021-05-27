@@ -10,8 +10,19 @@
     text-align: left;
     font-size: 4rem;
     background-color: royalblue;
-
   }
+
+h2 {
+    display: block;
+    box-sizing: border-box;
+   
+    color: white;
+    text-align: left;
+    font-size: 1.5rem;
+    background-color: rgb(10, 83, 49);
+}
+
+
 
   .nav-bar {
     display: block;
@@ -25,7 +36,6 @@
   }
 
 .nav-bar a {
-  margin-top: -20px;
   padding: 10px 20px ;
   text-decoration:none;
   color: white;
@@ -33,18 +43,33 @@
 
 }
 
-h2 {
-    display: block;
-    box-sizing: border-box;
-   
-    color: white;
-    text-align: left;
-    font-size: 1.5rem;
-    background-color: rgb(10, 83, 49);
+.big-rectangle {
+    margin:15px;
+    padding:20px 10px;
+    border-radius: 10px;
+    background: darkgrey;
+}
+
+.small-rectangle {
+  display:inline-flex;
+  margin:15px;
+  padding:20px 10px;
+  border-radius: 10px;
+  background: rgb(236, 95, 95);
+
 
 }
 
-.about-me {
+
+.about {
+    color: white;
+    text-align: left;
+    font-size: 1.5rem;
+
+
+}
+
+.about-text {
     display: block;
     box-sizing: border-box;
 }
