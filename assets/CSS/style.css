@@ -4,6 +4,16 @@
     margin: 0;
   }
 
+body {    
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: flex-start;
+  background-color: rosybrown;
+  line-height: 1.5;
+
+}
+
   h1 {
     display: block;
     color: white;
@@ -13,13 +23,10 @@
   }
 
 h2 {
-    display: block;
     box-sizing: border-box;
-   
     color: white;
     text-align: left;
     font-size: 1.5rem;
-    background-color: rgb(10, 83, 49);
 }
 
 
@@ -43,31 +50,43 @@ h2 {
 
 }
 
-.big-rectangle {
-    margin:15px;
-    padding:20px 10px;
-    border-radius: 10px;
-    background: darkgrey;
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin:15px;
+  padding:20px 10px;
+  border-radius: 10px;
+  background: darkgrey;
+  flex-wrap: wrap;
+  justify-content: left;
+    
 }
 
-.small-rectangle {
-  display:inline-flex;
+.small {
   margin:15px;
   padding:20px 10px;
   border-radius: 10px;
   background: rgb(236, 95, 95);
-
+  width: 25%;
 
 }
 
+.textBox {
+  margin:15px;
+  padding:20px 10px;
+  border-radius: 10px;
+  background: rgb(95, 236, 95);
+  width: 74%;
+}
 
+/* this can prob be deleted
 .about {
     color: white;
     text-align: left;
     font-size: 1.5rem;
-
-
 }
+*/
 
 .about-text {
     display: block;
