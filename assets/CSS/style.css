@@ -118,6 +118,7 @@ h2 {
 }
 
 
+
 main {
   display: flex;
   /* Forces elements to the next line if they don't fit */
@@ -137,9 +138,11 @@ main {
 }
 */
 
+/*
 .projects:nth-last-of-type(5) {
-  flex-grow: 1;
+
 }
+*/
 
 .projects {
   /*flex: 0 1 0;*/
@@ -165,7 +168,49 @@ main {
   max-width: 700px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+ 
 }
+
+
+#big-image {
+  display: flex;
+  /* Forces elements to the next line if they don't fit */
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2%;
+  
+}
+
+#big-image section {
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  max-width: 700px;
+  flex-grow: 1.5;
+
+}
+
+
+#big-image header {
+  padding: 20px;
+  background-color: rgb(160, 100, 100);
+  color: #fff;
+  max-width: 700px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+}
+
+#big-image img {
+  width: 100%;
+  min-width: 300px;
+  max-width: 700px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+}
+
 
 footer {
 display: block;
@@ -184,6 +229,6 @@ footer a {
   margin: 10px;
   text-decoration:none;
   color: white;
-  text-align: center;
+  text-align: left
 
 }
