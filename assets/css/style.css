@@ -186,7 +186,7 @@ main {
   text-align: center;
   border-style: solid;
   border-width: 1px;
-  max-width: 700px;
+  max-width: 500px;
   flex-grow: 1.5;
 
 }
@@ -196,7 +196,7 @@ main {
   padding: 20px;
   background-color: rgb(160, 100, 100);
   color: #fff;
-  max-width: 700px;
+  max-width: 500px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 
@@ -204,8 +204,8 @@ main {
 
 #big-image img {
   width: 100%;
-  min-width: 300px;
-  max-width: 700px;
+  min-width: 200px;
+  max-width: 500px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 
